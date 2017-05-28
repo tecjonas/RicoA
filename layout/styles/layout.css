@@ -239,26 +239,26 @@ main form input, main form textarea{color:inherit; background-color:inherit;}
 #footer .shout .shout-content, #footer .shout .shout-content:hover{color:inherit; background-color:#3C3C3C;}
 #footer .title{border-color:#3C3C3C;}
 #footer input{color:#FFFFFF; background-color:#3C3C3C;}
-#footer button{color:#FFFFFF; background-color:#A7C353;}
+#footer button{color:#FFFFFF; background-color:#CC0000;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFFFFF; background-color:#A7C353;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFFFFF; background-color:#CC0000;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#A7C353;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#CC0000;}
 #mainav form select{border-color:#3C3C3C; color:#B4B4B4; background-color:#232323;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#A7C353;}
+#breadcrumb li:last-child a{color:#CC0000;}
 
 .container .sidebar nav a{color:inherit; border-color:#3C3C3C;}
-.container .sidebar nav a:hover{color:#A7C353;}
+.container .sidebar nav a:hover{color:#CC0000;}
 
 .pagination a, .pagination strong{border-color:#3C3C3C;}
-.pagination .current{color:#FFFFFF; background-color:#A7C353;}
+.pagination .current{color:#FFFFFF; background-color:#CC0000;}
 
-#backtotop{color:#FFFFFF; background-color:#A7C353;}
+#backtotop{color:#FFFFFF; background-color:#CC0000;}
 
 
 /* Tables + Comments */
