@@ -13,6 +13,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="lightbox/src/css/lightbox.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 
@@ -62,7 +63,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <h1> <a name="Produtos" class="title color-dark-red bold">Produtos</a></h1>
     <!-- ################################################################################################ -->
-    <div class="flexslider basicslider">
+    <!--<div class="flexslider basicslider">
       <ul class="slides">
         <li>
           <figcaption class="color-dark-red center">Cross Fox</figcaption>
@@ -91,6 +92,28 @@ Licence URI: http://www.os-templates.com/template-terms
         </li>
       </ul>
     </div>
+    -->
+    <div class="row">
+    	<div class="col-lg-2"></div>
+		<div class="col-lg-4">
+	    	<a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption">
+	    		<img class="content" src="images/crossfox/002.jpg">
+	    	</a>
+	        <a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+	        <a href="images/crossfox/003.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+	        <a href="images/crossfox/004.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+	    </div>
+	    <div class="col-lg-4">
+	        <a href="images/crossup/estoque_1.jpg" data-lightbox="crossup" data-title="My caption">
+	        	<img class="content" src="images/crossup/estoque_1.jpg">
+	        </a>
+	        <a href="images/crossup/estoque_2.jpg" data-lightbox="crossup" data-title="My caption"></a>
+	        <a href="images/crossup/estoque_3.jpg" data-lightbox="crossup" data-title="My caption"></a>
+	        <a href="images/crossup/estoque_4.jpg" data-lightbox="crossup" data-title="My caption"></a>
+	    </div>
+	    <div class="col-lg-2"></div>
+    </div>
+
     <section class="group">
 	<div class="two_third first">
         <h1><a name="Serviços" class="title color-dark-red bold">Serviços</a></h1>
@@ -132,20 +155,13 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row4">
   <footer id="footer" class="clear"> 
     <!-- ################################################################################################ -->
-    <div class="one_quarter first">
-      <h6 class="title">Contato</h6>
-      <address class="btmspace-15">
-      Rico Automóveis<br>
-      Rua 13 de Maio &amp; nº520<br>
-      Bairro São Paulo<br>
-      Governador Valadares-MG
-      </address>
-      <ul class="nospace">
-        <li class="btmspace-10"><span class="fa fa-phone"></span> +55 (33)3221-4067 (33)99949-9900</li>
-        <li><span class="fa fa-envelope-o"></span> ricogv@hotmail.com</li>
-      </ul>
-    </div>
-    
+   <div class="container">
+   		<div class="row1">
+   			<div  scr="ricautoIcon.png">
+   			
+   			</div>
+   		</div> 
+   </div>
     
     <div class="one_quarter">
       <ul class="faico clear">
@@ -153,19 +169,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
       </ul>
     </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="clear"> 
-    <!-- ################################################################################################ -->
-   
-    <!-- ################################################################################################ -->
-  </div>
-</div>
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -175,5 +179,12 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="lightbox/src/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'fitImagesInViewport': true,
+      'wrapAround': true
+    })
+</script>
 </body>
 </html>
