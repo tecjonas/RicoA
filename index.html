@@ -13,6 +13,9 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+
+
 <link href="lightbox/src/css/lightbox.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
@@ -20,7 +23,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row1">
+<div class="wrapper row1 myrow">
   <header id="header" class="clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
@@ -34,7 +37,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="#Produtos">Produtos</a></li>
         <li><a href="#Serviços">Serviços</a></li>
         <li><a href="#Quem Somos">Quem Somos</a></li>
-        <li><a href="#Contato">Contato</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
     <!-- ################################################################################################ -->
@@ -57,119 +60,144 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3 myrow">
   <main class="container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <h1> <a name="Produtos" class="title color-dark-red bold">Produtos</a></h1>
-    <!-- ################################################################################################ -->
-    <!--<div class="flexslider basicslider">
-      <ul class="slides">
-        <li>
-          <figcaption class="color-dark-red center">Cross Fox</figcaption>
-          <figure><img class="" src="images/crossfox/002.jpg" alt="">
-          </figure>
-        </li>
-        <li>
-          <figcaption class="color-dark-red center">Cross Up/</figcaption>
-          <figure><img class="" src="images/crossup/estoque_1.jpg" alt="">
-          </figure>
-        </li>
-        <li>
-          <figcaption class="color-dark-red center">HB20</figcaption>
-          <figure><img class="" src="images/hb20/e1.jpg" alt="">
-          </figure>
-        </li>
-        <li>
-          <figcaption class="color-dark-red center">Honda Fit</figcaption>
-          <figure><img class="" src="images/hondafit/h1.jpg" alt="">
-          </figure>
-        </li>
-        <li>
-          <figcaption class="color-dark-red center">Mobi</figcaption>
-          <figure><img class="" src="images/mobi/c2.jpg" alt="">
-          </figure>
-        </li>
-      </ul>
-    </div>
-    -->
-    <div class="row">
-    	<div class="col-lg-2"></div>
-		<div class="col-lg-4">
-	    	<a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption">
-	    		<img class="content" src="images/crossfox/002.jpg">
-	    	</a>
-	        <a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption"></a>
-	        <a href="images/crossfox/003.jpg" data-lightbox="crossfox" data-title="My caption"></a>
-	        <a href="images/crossfox/004.jpg" data-lightbox="crossfox" data-title="My caption"></a>
-	    </div>
-	    <div class="col-lg-4">
-	        <a href="images/crossup/estoque_1.jpg" data-lightbox="crossup" data-title="My caption">
-	        	<img class="content" src="images/crossup/estoque_1.jpg">
-	        </a>
-	        <a href="images/crossup/estoque_2.jpg" data-lightbox="crossup" data-title="My caption"></a>
-	        <a href="images/crossup/estoque_3.jpg" data-lightbox="crossup" data-title="My caption"></a>
-	        <a href="images/crossup/estoque_4.jpg" data-lightbox="crossup" data-title="My caption"></a>
-	    </div>
-	    <div class="col-lg-2"></div>
-    </div>
+   
+	<div class="flexslider basicslider">
+       <ul class="slides">
+	     	<li>
+			    	<div>
+				    	<a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption">
+				    	<img class="content" src="images/crossfox/002.jpg"></a>
+				        <a href="images/crossfox/002.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+				        <a href="images/crossfox/003.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+				        <a href="images/crossfox/004.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+				        <a href="images/crossfox/005.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+				        <a href="images/crossfox/006.jpg" data-lightbox="crossfox" data-title="My caption"></a>
+				    </div>
+			</li>
+			<li>	    
+				    <div>
+				        <a href="images/crossup/estoque_1.jpg" data-lightbox="crossup" data-title="My caption">
+				        	<img class="content" src="images/crossup/estoque_1.jpg"></a>
+				        <a href="images/crossup/estoque_2.jpg" data-lightbox="crossup" data-title="My caption"></a>
+			            <a href="images/crossup/estoque_3.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_4.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_5.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_6.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_7.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				    </div>
+			</li>     
+			<li>	    
+				    <div>
+				        <a href="images/hb20/e1.jpg" data-lightbox="crossup" data-title="My caption">
+				        	<img class="content" src="images/crossup/estoque_1.jpg"></a>
+				        <a href="images/hb20/e2.jpg" data-lightbox="crossup" data-title="My caption"></a>
+			            <a href="images/hb20/e3.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/hb20/e4.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/hb20/e5.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/hb20/e6.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/hb20/e7.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				    </div>
+			</li>     
+			<li>	    
+				    <div>
+				        <a href="images/crossup/estoque_1.jpg" data-lightbox="crossup" data-title="My caption">
+				        	<img class="content" src="images/crossup/estoque_1.jpg"></a>
+				        <a href="images/crossup/estoque_2.jpg" data-lightbox="crossup" data-title="My caption"></a>
+			            <a href="images/crossup/estoque_3.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_4.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				    </div>
+			</li>     
+			<li>	    
+				    <div>
+				        <a href="images/crossup/estoque_1.jpg" data-lightbox="crossup" data-title="My caption">
+				        	<img class="content" src="images/crossup/estoque_1.jpg"></a>
+				        <a href="images/crossup/estoque_2.jpg" data-lightbox="crossup" data-title="My caption"></a>
+			            <a href="images/crossup/estoque_3.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				        <a href="images/crossup/estoque_4.jpg" data-lightbox="crossup" data-title="My caption"></a>
+				    </div>
+				  
+			</li>     
+	    </ul>
+	</div>
+	</main>
+</div> 
+ 
 
-    <section class="group">
-	<div class="two_third first">
-        <h1><a name="Serviços" class="title color-dark-red bold">Serviços</a></h1>
-        <ul class="nospace">
-          <li class="clear btmspace-15"><img class="imig" src="images/z.jpg" alt="">
-            <p class="nospace bold color-dark-red"> Lanternagem</p>
-            <p class="nospace color-black">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
-          </li>
-          <li class="clear btmspace-30"><img class="imig" src="images/y.jpg" alt="">
-            <p class="nospace bold color-dark-red"> Pintura</p>
-            <p class="nospace color-black">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
-          </li>
-            <li class="clear btmspace-30"><img class="imig" src="images/x.jpg" alt="">
-            <p class="nospace bold color-dark-red" > Funelaria</p>
-            <p class="nospace color-black">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
-          </li>
-        </ul>
-      </div>
-
-      <div class="two_third first">
+<div class="back-colorz myrow">	  
+	<div class="container">
+		<h1><a name="Serviços" class="title color-dark-red bold">Serviços</a></h1>
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<img class="imig center-block" src="images/z.jpg" alt="">
+				<p class="nospace bold color-dark-red"> Lanternagem</p>
+				<p class="nospace color-black text-center">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<img class="imig" src="images/y.jpg" alt="">
+				<p class="nospace bold color-dark-red"> Pintura</p>
+				<p class="nospace color-black">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<img class="imig" src="images/x.jpg" alt="">
+				<p class="nospace bold color-dark-red" > Funelaria</p>
+				<p class="nospace color-black">Sed eget ultricies sem. Proin quis lacus egestas, adipiscing&hellip;</p>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="container myrow">
+      <div class="">
         <h1><a name="Quem Somos" class="title color-dark-red bold">Quem Somos</a></h1>
-        <p class="color-black">A Rico Automóveis atua no comércio de compra, venda, intermediação e consignação de veículos novos e seminovos, nacionais e importados, no mercado mineiro de automóveis.
+        <p class="color-black">A Rico Automóveis atua no comércio de compra, venda, intermediação e consignação de veículos novos e seminovos, nacionais e importados, no mercado mineiro de automóveis.</p>
 
-		Além do comércio, a empresa oferece todos os serviços necessários na área automotiva, como funilaria e pintura, assistência técnica completa, corretagem de seguros, acessórios, despachantes, transporte e locação de veículos, entre outros serviços para atender totalmente as necessidades de seus clientes.
+        <p class="color-black">Além do comércio, a empresa oferece todos os serviços necessários na área automotiva, como funilaria e pintura, assistência técnica completa, corretagem de seguros, acessórios, despachantes, transporte e locação de veículos, entre outros serviços para atender totalmente as necessidades de seus clientes.</p>
 
-		Sinônimo de estabilidade, confiança e solidez, a Rico Automóveis tem como principal objetivo, a segurança e a confiabilidade nas negociações. Por meio de um processo criterioso e cuidadoso de seleção de carros para compra e venda, a empresa garante a procedência de todos os veículos, o retorno de investimento e a total satisfação do cliente, buscando sempre a fidelização do cliente para próximos negócios.</p>
+		<p class="color-black">Sinônimo de estabilidade, confiança e solidez, a Rico Automóveis tem como principal objetivo, a segurança e a confiabilidade nas negociações. Por meio de um processo criterioso e cuidadoso de seleção de carros para compra e venda, a empresa garante a procedência de todos os veículos, o retorno de investimento e a total satisfação do cliente, buscando sempre a fidelização do cliente para próximos negócios.</p>
       </div>
+    </div>  
       <!-- ################################################################################################ -->
-      
-    </section>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4">
-  <footer id="footer" class="clear"> 
-    <!-- ################################################################################################ -->
-   <div class="container">
-   		<div class="row1">
-   			<div  scr="ricautoIcon.png">
-   			
-   			</div>
-   		</div> 
-   </div>
-    
-    <div class="one_quarter">
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-      </ul>
-    </div>
 
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="back-color-footer">
+	<div class="container">
+	    
+	    <!-- ################################################################################################ -->
+	    <div class="row">
+			<div class="col-md-4">
+		      
+		      
+		        <img src="ricautoIcon.png">
+		     
+		    </div>
+		    <div class="col-md-3">
+		      
+		        <img src="ricautoIcon.png">
+		   
+		    </div>
+		    <div class="col-md-3">
+		        <img src="ricautoIcon.png">
+		   
+		    </div>
+		    <div class="col-md-2">
+		      <ul class="faico clear">
+		        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+		        <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+		      </ul>
+		    </div>
+		</div>    
+		 
+	</div>  
+</div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->

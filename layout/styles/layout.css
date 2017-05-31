@@ -18,7 +18,7 @@ File: Layout CSS
 .row1{border:solid; border-width:0px 0;}
 .row2{border:solid; border-width:0px 0;}
 .row3{border:solid; border-width:0px 0;}
-.row4{border-top:2px solid;}
+.row4{border-top:1px solid;}
 .row5{border-top:1px solid;}
 
 
@@ -46,7 +46,7 @@ File: Layout CSS
 .container{padding:50px 0;}
 
 /* Content */
-.container .content{}
+
 
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
@@ -207,6 +207,11 @@ td{border-width:0 1px;}
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#FFFFFF; background-color:#FFFFFF;}
 a{color:#A7C353;}
+.myrow a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
 hr, .borderedbox{border-color:#3C3C3C;}
 label span{color:#FF0000; background-color:inherit;}
 h1, h2, h3, h4, h5, h6, .heading{color:#FFFFFF; background-color:inherit;}
@@ -233,12 +238,6 @@ h1, h2, h3, h4, h5, h6, .heading{color:#FFFFFF; background-color:inherit;}
 main .flex-control-paging li a{background:rgba(255,255,255,1); box-shadow:inset 0 0 3px rgba(255,255,255,.6)}
 main form input, main form textarea{color:inherit; background-color:inherit;}
 
-
-/* Footer */
-#footer .shout .shout-content, #footer .shout .shout-content:hover{color:inherit; background-color:#FFFFFF;}
-#footer .title{border-color:#FFFFFF;}
-#footer input{color:#FFFFFF; background-color:#3C3C3C;}
-#footer button{color:#FFFFFF; background-color:#CC0000;}
 
 
 /* Navigation */
@@ -322,7 +321,18 @@ table a, #comments a{background-color:inherit;}
 	#topbar, #header, #breadcrumb, .container, #footer, #copyright{max-width:978px;}
 }
 
-
+@media only screen and (max-width: 992px){
+	.back-colorz{
+		background: #690000;
+		height: 400px;
+}
+}
+@media only screen and (max-width: 768px){
+	.back-colorz{
+		background: #690000;
+		height: 1000px;
+}
+}
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px) {
