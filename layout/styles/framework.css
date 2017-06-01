@@ -56,7 +56,7 @@ label{margin-bottom:5px;}
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:20px; line-height:normal; font-weight:normal; font-variant:small-caps;}
-h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter, h6::first-letter, .heading::first-letter{font-size:24px;}
+h1:, h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter, h6::first-letter, .heading::first-letter{font-size:24px;}
 
 address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
@@ -103,24 +103,3 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .inspace-80{padding:80px;}
 
 
-.alinhamento-horizontal{
-	display: inline-block;
-}
-
-
-	
-.back-colorz{
-background: #800000;
-height: 400px;
-}
-
-.back-color-footer{
-	background-color: #000;
-}
-
-.containerx{
-	margin: 65px;
-}
-.justificado{
-	text-align: justify-all;
-}

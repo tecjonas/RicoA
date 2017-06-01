@@ -36,9 +36,9 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{}
+#header #logo
 #header #logo h1{margin:6px 0 0 0; padding:0; font-size:32px; font-variant:small-caps;}
-#header #logo h1::first-letter{font-size:36px;}
+#header #logo h1:first-letter{font-size:36px;}
 
 
 /* Content Area
@@ -193,7 +193,9 @@ td{border-width:0 1px;}
 .faicon-facebook:hover{background-color:#3B5998;}
 .faicon-google-plus:hover{background-color:#DB4A39;}
 .faicon-instagram:hover{background-color:#CC0000;}
-
+.pad-imagem{
+	padding: 25px;
+}
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -314,10 +316,40 @@ table a, #comments a{background-color:inherit;}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
+.pad-title{
+	padding: 15px;
+}}
+
 .roda-pe{
 	padding-top: 40px;
 	color: #FFFFFF; 
 }
+.modelos-carros{
+	position: relative;margin: 0 45%
+}
+.alinhamento-horizontal{
+	display: inline-block;
+}
+
+
+	
+.back-colorz{
+background: #800000;
+height: 490px;
+}
+
+.back-color-footer{
+	background-color: #000;
+}
+
+.containerx{
+	margin: 65px;
+}
+.justificado p{
+
+	text-align: justify;
+}
+
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
