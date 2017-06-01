@@ -110,7 +110,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 
 	
 .back-colorz{
-background: #690000;
+background: #800000;
 height: 400px;
 }
 
@@ -120,4 +120,7 @@ height: 400px;
 
 .containerx{
 	margin: 65px;
+}
+.justificado{
+	text-align: justify-all;
 }

@@ -314,6 +314,10 @@ table a, #comments a{background-color:inherit;}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
+.roda-pe{
+	padding-top: 40px;
+	color: #FFFFFF; 
+}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
